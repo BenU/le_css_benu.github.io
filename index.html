@@ -3,55 +3,52 @@
   <head>
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
-    <style>           
-/*     a {
+    <style>          
+      a {
         color: red;
-     }
-      .bio-box {
-        border: 1px solid black;
+      }
+      .bio-box  {
+        border:   black solid 1px;
       }
       .bio-box a {
         color: green;
       }
-      . {
-        background: red;
+      #exec-box {
+        background-color: lightgrey;
       }
-      #exec-bio {
-        background-color: lightgray;
+      .founder {
+        background-color: azure;
       }
-      #exec-bio. {
-        background: grew;
-      }
-      #founder {
+      #visiting {
         background-color: orange;
-      } */
+      }
     </style>      
   </head>
   <body>
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/" style="color: red;">Link</a>
+        <a href="http://example.com/" >Link</a>
       </li>
       <li>
-        <a href="http://example.com/" style="color: red;">Link</a>
+        <a href="http://example.com/" >Link</a>
       </li>
       <li>
-        <a id="founder" href="http://example.com/" style="color: red;">Link</a>
+        <a id="founder" href="http://example.com/" >Link</a>
       </li>
     </ul>
     <h2>I'm an h2</h2>
-    <div style= "border: black solid 1px;"> 
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div id="exec-box" class="bio-box"> 
+      <a href="http://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="bio-box">
+      <a href="http://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div  class="bio-box"> 
+      <a id="visiting" href="http://example.com/">I'm a link</a>
     </div>
-    <div style="border: 1px solid black;">
-      <a href="http://example.com/" style="color: green;">I'm a link</a>
+    <div class="founder bio-box">
+      <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
 </html>
