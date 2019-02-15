@@ -9,9 +9,30 @@ h1  {
   font-size:  7vw;
   margin-top: 0;
 }
+h2 ~ p {
+  font-size:    0.8em;
+  font-style:   italic;
+  margin:       1em auto 0;
+  max-width:    70%;
+  text-align:   center;
+}
 
 /* HEADER STYLES */
-
+.header {
+  background-color: #aaa;
+  height:           300px;
+  position:         relative;
+  width:            100%;
+}
+.header-logo  {
+  background-color: #000;
+  height:           110px;
+  left:             50%;
+  position:         absolute;
+  top:              50%;
+  transform:        translate(-50%, -50%);
+  width:            110px;
+}
 .header-nav {
   float:    right;
   padding:  5.5vh 60px 0 0;
@@ -19,6 +40,10 @@ h1  {
 .header-nav > li {
   display:      inline-block;
   margin-left:  1em;
+}
+.header-nav > li + li {
+  border-left:      1px solid rgba(0, 0, 0, 0.3);
+  padding-left:     1em;
 }
 .header-nav a {
   color:            #000;
@@ -31,6 +56,18 @@ h1  {
 .header-nav a:active {
   color:            #ed6e2f;
 }
+.header-nav >li:first-child a {
+  color: #ed6e2f;
+}
+.header-nav > li:first-child a:hover {
+  color: #000;
+}
+.header-nav >li:last-child a {
+  color: green;
+}
+.header-nav >li:last-child a:hover {
+  color: orange;
+}
 
 .header-logo:hover,
 .header-logo:active {
@@ -41,6 +78,9 @@ h1  {
 .full-hero {
   background-color:   #c7dbfc;
   height:             50vh;
+}
+.full-hero:hover {
+  background-color:   pink;
 }
 
 /*  SOCIAL STYLES */
@@ -61,6 +101,11 @@ h1  {
   vertical-align:   middle;
   width:  2.5em;
 }
+.social-link:hover,
+.social-link:active {
+  background-color:   orange;
+}
+
 .social-list {
   list-style:   none;
   padding:      0;
