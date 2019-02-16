@@ -108,6 +108,9 @@ h2 ~ p {
 .footer-nav a {
   color:            #ccc;
 }
+.footer-social.social-list {
+  padding-top:      1em;
+  }
 
 /* HERO STYLES */
 .full-hero {
