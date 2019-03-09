@@ -393,12 +393,17 @@ h4 {
 }
 .post-header img {
   border-radius:  99px;
-  /* border:         5px solid black; */
-/*   box-sizing:     border-box; */
   display:        inline-block;
   height:         2.5em;
   vertical-align: middle;
 }
+.blog-index img {
+  border-radius:  99px;
+  display:        inline-block;
+  height:         2.5em;
+  vertical-align: middle;
+}
+
 .posts-image {
   background-position:  center;
   background-size:      cover;
